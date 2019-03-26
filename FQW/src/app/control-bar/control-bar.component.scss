@@ -1,0 +1,17 @@
+.side-bar {
+    visibility: hidden;
+    transition: visibility 0s 0.6s;
+}
+
+.side-bar__content {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #3c3e42;
+}
+
+.side-bar--visible {
+    position: relative;
+    visibility: visible;
+    transition: visibility 0s 0s;
+}

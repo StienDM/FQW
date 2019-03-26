@@ -1,0 +1,27 @@
+.exp-container {
+    height: 56px;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(206,206,206,0.8);
+    border-right: 1px solid rgba(206,206,206,0.8);
+    font-size: 100%;
+}
+
+.exp-item {
+    height: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+.left-block {
+    color: #fff;
+    background: #6399cb;
+    display: inline-block;
+    height: 100%;
+    width: 50px;
+}
+
+.right-block {
+    width: 250px;
+    display: flex
+}

@@ -1,0 +1,15 @@
+<!-- <div [ngClass]="{'.side-bar--visible': isSideBarVisible, 'side-bar': !isSideBarVisible}"> -->
+<div class=".side-bar--visible">
+  <div
+    class="side-bar__content"
+  >
+    <div class="expression-list" *ngFor="let exp of expressionList">
+      <app-exp-item></app-exp-item>
+    </div>
+</div>
+</div>
+
+<!-- <button 
+    class="side-bar-control"
+    (click)="onButonClick()"
+></button> -->

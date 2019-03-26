@@ -9,14 +9,10 @@ import { AstService } from './ast.service';
 })
 export class AppComponent implements OnInit {
 
-    @HostListener('mousewheel', ['$event'])
-        onMouseWheel(event) {
-    }
-
     constructor(private ast: AstService) {}
 
     ngOnInit() {
-        this.ast.parseAst('(x+2)+(x-6)');
+        // this.ast.parseAst('x*sin((x^2)+(x-7))', null);
     }
 
 }
